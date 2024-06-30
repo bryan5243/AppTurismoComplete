@@ -7,10 +7,10 @@ export default function Inicio() {
 
     return (
         <ImageBackground source={require('../../assets/images/register.jpeg')} className='flex-1 items-center'>
-            <Image source={require('../../assets/images/santar.png')} className=' w-[330px] h-32 mt-16 object-cover' />
+            <Image source={require('../../assets/images/santar.png')} className='h-32 mt-16 ' resizeMode='contain' />
             <SafeAreaView className='flex-1 justify-center items-center'>
                 <View className='flex-1 justify-center mt-36'>
-                    <Image source={require("../../assets/images/camellosleft.gif")} className="h-80 w-80" />
+                    <Image source={require("../../assets/images/camellosleft.gif")} className="h-80 w-80"  />
                 </View>
 
                 <View className='justify-end items-center mb-16'>
